@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>One Page Resume</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/wa-16.gif); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; width: 200px ;height: 250px }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid white; color: white; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; color: white; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: white; font-weight: normal; }
+        p { margin: 0 0 16px 0; color: white; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: white; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color:white; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999; color: white;  }
+        dd { width: 600px; float: right; color: white;}
+        dd.clear { float: none; margin: 0; height: 15px; }
+        li {color: white;}
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+    
+        <img src="images/1.jpg" alt="Photo of yagnik" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">YAGNIK SUTARIYA</h1>
+        
+            <p>
+                Cell: <span class="tel">9913447604</span><br />
+                Email: <a class="email" href="https://mail.google.com/mail/u/0/#inbox">yagniksutariya2121@gmail.com</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                I am an outgoing and energetic (ask anybody) young professional, seeking a 
+                career that fits my professional skills, personality.  
+                I can bring world domination to your organization. 
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>GOVERNMENT ENGINEERING COLLEGE</h2>
+                <p><strong>Major:</strong> B.E.IT(M.E.IT)<br />
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                <h2>Office skills</h2>
+                <p>Office and records management, database administration, event organization, web developer, graphics designer, video editor</p>
+                
+                <h2>Computer skills</h2>
+                <p>Microsoft productivity software (Word, Excel, etc), Windows ,linux ,adobe photoshop and other adobe software</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Experience</dt>
+            <dd>
+                <h2>PROJECT MANAGEMENT <span>GOVERNMENT ENGINEERING COLLEGE</span></h2>
+                <ul>
+                    <li>Inspired and won the competition.</li>
+                    <li>Helped coordinate managers to grow domain following.</li>
+                    <li>3 yeara experience</li>
+                </ul>
+              
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Hobbies</dt>
+            <dd>WORLD TOUR, READING NEW BLOGS ON TECH. , CRICKET , CHESS etc.</dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>References</dt>
+            <dd>Available on request</dd>
+            <dd>github link:</dd>
+            <a href="https://github.com/yagnik2121/resume.html.git"></a>
+
+
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>
